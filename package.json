@@ -1,7 +1,7 @@
 {
   "name": "turbo-cli",
   "description": "Turbo Project Demo CLI",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Vunlurd @vunlurd",
   "bin": {
     "turbo": "./bin/run"

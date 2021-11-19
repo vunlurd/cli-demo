@@ -19,7 +19,7 @@ $ npm install -g turbo-cli
 $ turbo COMMAND
 running command...
 $ turbo (-v|--version|version)
-turbo-cli/0.0.0 win32-x64 node-v16.13.0
+turbo-cli/0.0.1 win32-x64 node-v16.13.0
 $ turbo --help [COMMAND]
 USAGE
   $ turbo COMMAND
@@ -47,7 +47,7 @@ DESCRIPTION
   Extra documentation goes here
 ```
 
-_See code: [src/commands/hello.js](https://github.com/vunlurd/cli-demo/blob/v0.0.0/src/commands/hello.js)_
+_See code: [src/commands/hello.js](https://github.com/vunlurd/cli-demo/blob/v0.0.1/src/commands/hello.js)_
 
 ## `turbo help [COMMAND]`
 
