@@ -1,0 +1,49 @@
+{
+  "name": "turbo-cli",
+  "description": "Turbo Project Demo CLI",
+  "version": "0.0.0",
+  "author": "Vunlurd @vunlurd",
+  "bin": {
+    "turbo": "./bin/run"
+  },
+  "bugs": "https://github.com/vunlurd/cli-demo/issues",
+  "devDependencies": {
+    "@oclif/dev-cli": "^1.26.0",
+    "globby": "^10.0.2",
+    "rimraf": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/npm-shrinkwrap.json",
+    "/oclif.manifest.json",
+    "/src"
+  ],
+  "homepage": "https://github.com/vunlurd/cli-demo",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "oclif": {
+    "commands": "./src/commands",
+    "bin": "turbo",
+    "plugins": [
+      "@oclif/plugin-help"
+    ]
+  },
+  "repository": "vunlurd/cli-demo",
+  "scripts": {
+    "postpack": "rimraf oclif.manifest.json",
+    "prepack": "oclif-dev manifest && oclif-dev readme",
+    "test": "echo NO TESTS",
+    "version": "oclif-dev readme && git add README.md"
+  },
+  "dependencies": {
+    "@oclif/command": "^1.8.3",
+    "@oclif/config": "^1.17.1",
+    "@oclif/plugin-help": "^3.2.5"
+  }
+}
