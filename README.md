@@ -15,11 +15,11 @@ Turbo Project Demo CLI
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g turbo-cli
+$ npm install -g @vunlurd/turbo
 $ turbo COMMAND
 running command...
 $ turbo (-v|--version|version)
-turbo-cli/0.0.1 win32-x64 node-v16.13.0
+@vunlurd/turbo/0.0.1 win32-x64 node-v16.13.0
 $ turbo --help [COMMAND]
 USAGE
   $ turbo COMMAND
